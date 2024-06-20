@@ -24,7 +24,7 @@ const Testimonials: React.FC = () => {
       </div>
       {testimonials.map((testimonial, index) => (
         <div key={index} className={styles.testimonial_item}>
-          <p className={styles.testimonial_text}>"{testimonial.text}"</p>
+          <p className={styles.testimonial_text}>{testimonial.text}</p>
           <p className={styles.testimonial_author}>- {testimonial.author}</p>
         </div>
       ))}
